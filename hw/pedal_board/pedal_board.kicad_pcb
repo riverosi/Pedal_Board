@@ -2,8 +2,8 @@
 
   (general
     (thickness 1.6)
-    (drawings 8)
-    (tracks 29)
+    (drawings 26)
+    (tracks 30)
     (zones 0)
     (modules 7)
     (nets 30)
@@ -38,7 +38,7 @@
   )
 
   (setup
-    (last_trace_width 0.25)
+    (last_trace_width 0.5)
     (trace_clearance 0.2)
     (zone_clearance 0.508)
     (zone_45_only no)
@@ -126,7 +126,7 @@
 
   (net_class Default "This is the default net class."
     (clearance 0.2)
-    (trace_width 0.25)
+    (trace_width 0.5)
     (via_dia 0.6)
     (via_drill 0.4)
     (uvia_dia 0.3)
@@ -470,6 +470,30 @@
     (pad 1 thru_hole circle (at 0 0) (size 6.4 6.4) (drill 3.2) (layers *.Cu *.Mask))
   )
 
+  (gr_line (start 204.47 70.485) (end 204.47 74.295) (layer F.SilkS) (width 0.15))
+  (gr_line (start 209.55 78.105) (end 209.55 80.01) (layer F.SilkS) (width 0.15))
+  (gr_line (start 206.375 78.105) (end 209.55 78.105) (layer F.SilkS) (width 0.15))
+  (gr_line (start 206.375 76.835) (end 206.375 78.105) (layer F.SilkS) (width 0.15))
+  (gr_line (start 209.55 76.835) (end 206.375 76.835) (layer F.SilkS) (width 0.15))
+  (gr_line (start 209.55 75.565) (end 209.55 76.835) (layer F.SilkS) (width 0.15))
+  (gr_line (start 206.375 75.565) (end 209.55 75.565) (layer F.SilkS) (width 0.15))
+  (gr_line (start 206.375 74.295) (end 206.375 75.565) (layer F.SilkS) (width 0.15))
+  (gr_line (start 209.55 74.295) (end 206.375 74.295) (layer F.SilkS) (width 0.15))
+  (gr_line (start 209.55 73.025) (end 209.55 74.295) (layer F.SilkS) (width 0.15))
+  (gr_line (start 206.375 73.025) (end 209.55 73.025) (layer F.SilkS) (width 0.15))
+  (gr_line (start 206.375 71.755) (end 206.375 73.025) (layer F.SilkS) (width 0.15))
+  (gr_line (start 209.55 71.755) (end 206.375 71.755) (layer F.SilkS) (width 0.15))
+  (gr_line (start 209.55 70.485) (end 209.55 71.755) (layer F.SilkS) (width 0.15))
+  (gr_line (start 203.2 70.485) (end 209.55 70.485) (layer F.SilkS) (width 0.15))
+  (gr_text GND (at 210.185 92.71) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text +Vin (at 210.185 90.17) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text "Arduino RF Nano" (at 189.23 74.295) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
   (gr_line (start 191.5 88) (end 191.5 105.5) (layer Edge.Cuts) (width 0.1) (tstamp 603D7DA1))
   (gr_line (start 184.5 88) (end 191.5 88) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 184.5 105.5) (end 184.5 88) (layer Edge.Cuts) (width 0.1))
@@ -501,6 +525,7 @@
   (gr_line (start 191.5 105.5) (end 235 105.5) (layer Edge.Cuts) (width 0.1))
   (gr_line (start 141 105.5) (end 184.5 105.5) (layer Edge.Cuts) (width 0.1))
 
+  (segment (start 173.99 91.44) (end 167.005 91.44) (width 1) (layer F.Cu) (net 1))
   (segment (start 204.47 90.17) (end 204.47 82.55) (width 0.25) (layer F.Cu) (net 1))
   (segment (start 207.01 90.17) (end 207.01 82.55) (width 0.25) (layer F.Cu) (net 2))
   (segment (start 177.8 98.81) (end 173.605 98.81) (width 0.25) (layer F.Cu) (net 3))
