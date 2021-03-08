@@ -120,7 +120,7 @@ U 1 1 603EA83D
 P 8925 6050
 F 0 "J2" H 8843 5725 50  0000 C CNN
 F 1 "Conn_01x02" H 8843 5816 50  0000 C CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 8925 6050 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 8925 6050 50  0001 C CNN
 F 3 "~" H 8925 6050 50  0001 C CNN
 	1    8925 6050
 	-1   0    0    1   
