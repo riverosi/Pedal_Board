@@ -1,4 +1,4 @@
-19090504348199860
+19092119744101717
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83060,6 +83060,13 @@ HX711
 
 0
 4
+4
+hx711
+HX711_test
+
+
+0
+8
 4
 lconos
 logo_fiuner
