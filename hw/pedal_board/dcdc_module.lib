@@ -1,0 +1,20 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# dcdc_my3608_mini
+#
+DEF dcdc_my3608_mini U 0 40 Y Y 1 F N
+F0 "U" 0 0 50 H V C CNN
+F1 "dcdc_my3608_mini" 0 200 50 H V C CNN
+F2 "" -100 50 50 H I C CNN
+F3 "" -100 50 50 H I C CNN
+DRAW
+S 300 -150 -300 150 0 1 0 f
+X in_A 1 -400 100 100 R 50 50 1 1 I
+X in_B 2 -400 -100 100 R 50 50 1 1 I
+X out_A 3 400 100 100 L 50 50 1 1 O
+X out_B 4 400 -100 100 L 50 50 1 1 O
+ENDDRAW
+ENDDEF
+#
+#End Library
